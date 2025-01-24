@@ -4,7 +4,7 @@
 number of words in the given string without using string
 functions */
 
-function calculateLength($str) 
+function calculateLength($str): int 
 {
     $length = 0;
     
@@ -16,7 +16,7 @@ function calculateLength($str)
 }
 
 // Counts the number of words
-function countWords($str) 
+function countWords($str): int 
 {
     $wordCount = 0;
     $inWord = false;
