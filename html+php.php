@@ -8,8 +8,8 @@
 <body>
 
 <h1>Contact Form</h1>
-<form action="#" method="POST">
-    <label for="name">Name:</label>
+<form action="#" method="POST" autocomplete="off">
+    <label for="name">Name:</label> 
     <input type="text" id="name" name="name" required>
     <br><br>
 
