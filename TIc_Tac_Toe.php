@@ -46,8 +46,7 @@
             <?php
             // Initialize the board if not already set
             session_start();
-            if (!isset($_SESSION['board'])) 
-            {
+            if (!isset($_SESSION['board'])) {
                 $_SESSION['board'] = array_fill(0, 9, '');
             }
 
