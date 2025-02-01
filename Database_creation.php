@@ -2,8 +2,9 @@
     $servername = "localhost"; 
     $username = "root";
     $password = "";
+    $database = "db";
 
-    $conn = mysqli_connect($servername, $username, $password);
+    $conn = mysqli_connect($servername, $username, $password, $database);
 
     if (!$conn) 
 	{
@@ -11,17 +12,4 @@
     }
 
     echo "MySQL successfully connected<br>";
-
-    $sql = "CREATE DATABASE IF NOT EXISTS db";
-
-    if (mysqli_query($conn, $sql)) 
-	{
-        echo "Database created successfully!";
-    }
-	else
-	{
-        die("Error creating database: " . mysqli_error($conn)); 
-    }
-
-    mysqli_close($conn);
 ?>

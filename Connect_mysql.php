@@ -5,12 +5,8 @@
 	
 	$conn = mysqli_connect($severname, $username, $password);
 
-	if(!$conn)
-	{
-		die("Failed to connect");
-	}
-	else
-	{
+	if(!$conn) 
+		die("Failed to connect"); 
+	else 
 		echo "Successfully connected";
-	}
 ?>
