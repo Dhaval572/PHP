@@ -9,7 +9,7 @@
 		public function swim();
 	}
 
-	class Dolphin implements Animal, Swimmer 
+	class Dolphin implements Swimmer, Animal 
 	{
 		public function speak() 
 		{

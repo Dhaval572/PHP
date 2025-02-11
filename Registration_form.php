@@ -1,8 +1,9 @@
 <?php
 
+// Database connection
 $mysqli = new mysqli("localhost", "root", "", "test_database");
 
-
+// Connection error check
 if ($mysqli->connect_error) {
     die("Connection failed: " . $mysqli->connect_error);
 }
@@ -11,6 +12,8 @@ $name = $email = $gender = $dob = '';
 $errors = [];
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
+    // Collect from data
     $name = trim($_POST['name']);
     $email = trim($_POST['email']);
     $password = $_POST['password'];
