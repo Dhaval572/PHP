@@ -1,7 +1,7 @@
 <?php
 
 /*
-	Nowdoc syntax is similar to Heredoc, but it does not parse variables. It is essentially treated as a literal string, so the variables are not replaced by their values.
+	Nowdoc syntax is similar to Heredoc, but it does not parse variables. It is essentially treated as a literal string, so the variables are not replaced by their values.		
 */
 
 $name = "John";

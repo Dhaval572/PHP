@@ -5,6 +5,8 @@ class Person
     public $name;
     public $age;
 
+    // Default constructor
+    function __construct(){}
 	// Method
     function greet() 
 	{
@@ -14,12 +16,12 @@ class Person
 
 $person1 = new Person(); // Creating object of person1
 
-// Setting the vales of data
+// Setting the values of data
 $person1->name = "John"; 
 $person1->age = 25;
 
 echo "Name: " . $person1->name . "<br>";
 echo "Age: " . $person1->age . "<br>";
 
-$person1->greet(); // calling the function of class through the class name
+$person1->greet(); 
 ?>
