@@ -12,13 +12,13 @@
 
 	echo "<br>"."<hr>";
 
-	function invalid()
+	function invalid(): void
 	{
 		// echo "Second argument: " . func_get_arg(1) ; // Invalid because second argument is not available
 	}
 
 	// func_get_args() 
-	function sum() 
+	function sum(): float|int 
 	{
 		$args = func_get_args();  // Get all passed arguments as an array
 		return array_sum($args);  // Calculate the sum
