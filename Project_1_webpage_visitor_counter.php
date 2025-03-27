@@ -1,7 +1,6 @@
 <?php
 
 // Title Webpage visitor count
-
 $filename = "counter.txt";
 
 // Check if file exists, else create it
