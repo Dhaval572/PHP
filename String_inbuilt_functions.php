@@ -1,9 +1,9 @@
-<?php 
+<?php
 
 $arr = ["Hello", "bro!"];
 
-echo ord('a' ). "<br>"; // Returns the ascii values
-echo chr('97' ) . "<br>"; // Returns the character
+echo ord('a') . "<br>"; // Returns the ascii values
+echo chr('97') . "<br>"; // Returns the character
 echo strlen("Hello bro!") . "<br>"; // Return string length
 echo trim(" **    Hello     **") . "<br>"; // Removes whitespace (or specified characters) from both sides of a string.
 echo ltrim("**     Hello") . "<br>"; // Removes whitespace (or specified characters) from the left side only
