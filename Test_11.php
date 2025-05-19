@@ -7,7 +7,7 @@
 		}
 	}
 
-	class Father extends Grnadfather
+	class Father extends Grnadfather	
 	{
 		function intro()
 		{
