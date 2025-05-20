@@ -1,7 +1,7 @@
 <form method="POST">
 	<label>Number: </label>
 	<input type="number" name="num" required>
-	<button type="submit">Make table</button>
+	<button>Make table</button>
 </form>
 
 <?php

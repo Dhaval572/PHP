@@ -27,20 +27,14 @@ echo "SQL Query: " . $sql . "<br>";
 $checkTable = "SHOW TABLES LIKE 'users'";
 $result = mysqli_query($conn, $checkTable);
 
-if (mysqli_num_rows($result) == 0) 
-{
+if (mysqli_num_rows($result) == 0) {
 	// Table does not exist, create it
-	if (mysqli_query($conn, $sql)) 
-	{
+	if (mysqli_query($conn, $sql)) {
 		echo "Table 'users' created successfully<br>";
-	}
-	else 
-	{
+	} else {
 		echo "Error creating table: " . mysqli_error($conn) . "<br>";
 	}
-} 
-else 
-{
+} else {
 	echo "Table 'users' already exists<br>";
 }
 

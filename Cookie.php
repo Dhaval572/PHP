@@ -9,7 +9,6 @@ if (isset($_POST['delete_cookie'])) {
 	$cookieMessage = "Cookie has been set!";
 }
  
-// Start output AFTER setting cookies
 ?>
 <!DOCTYPE html>
 <html>
